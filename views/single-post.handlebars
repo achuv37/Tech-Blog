@@ -3,11 +3,11 @@
     <div class ="card-header flex-row justify-space-between">
       <h2>{{post.title}}</h2>
       <div>
-        <p>Posted by: {{post.User.username}} on {{format-date post.createdAt }}</p>
+        <p>Posted by: {{post.user.username}} on {{format_date post.createdAt }}</p>
       </div>
     </div>
     <div class ="card-body">
-      {{post.content}}
+      {{post.body}}
     </div>
   </div>
 </article>
@@ -21,10 +21,10 @@
       {{#each post.comments}}
       <section class="comment">
         <div class="meta">
-          {{user.username}} on {{format-date post.createdAt}}
+          {{user.username}} on {{format_date createdAt}}
         </div>
         <div class="text">
-          {{comment_text}}
+          {{body}}
         </div>
       </section>
       {{/each}}
@@ -34,14 +34,20 @@
 
 <!--Add new comment -->
 {{#if loggedIn}}
-<form class="comment-form">
-  <div>
-    <textarea name="comment-body"></textarea>
+<form id ="new-comment-form" class="card">
+  <div class="card-header">
+    <h3>Add New Comment</h3>
   </div>
-  <div>
-    <button type="submit">add comment</button>
+  <div class="card-body">
+    <input type="hidden" name="post-id" value="{{post.id}}" />
+
+    <label class="form-label" for="comment-body">Comment</label>
+    <textarea name="comment-body" class="form-input"></textarea>
+
+    <button type="submit" class="btn">submit</button>
   </div>
 </form>
+
 {{/if}}
 
-<script src="./js/comment.js"></script> 
+<script src="/js/comment.js"></script> 

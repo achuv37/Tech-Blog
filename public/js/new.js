@@ -1,3 +1,5 @@
+console.log('loaded');
+
 const newFormHandler = async function(event) {
   event.preventDefault();
 

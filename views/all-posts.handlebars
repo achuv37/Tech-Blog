@@ -6,11 +6,11 @@
         <a href="/post/{{id}}" target="_blank">{{title}}</a>
       </h2>
       <div>
-        <p>Posted by: {{User.username}} on {{format-date createdAt }} </p>
+        <p>Posted by: {{user.username}} on {{format_date createdAt }} </p>
       </div>
     </div>
     <div class ="card-body">
-      {{content}}
+      {{body}}
     </div>
   </div>
   {{/each}}
