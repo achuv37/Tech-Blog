@@ -1,9 +1,14 @@
 # Tech-Blog
   This application is to build a CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts as well.
 ## Description
-
+* This is a CMS-style blog site. When the user visit the site for first time, Then the site presented with the homepage, which includes the existing blog posts.
+* The site allows user to either signup or login. Then the user credentials are saved.
+* Each of the user posts presented with post title, contents, post creator’s username, and date created for that post and have the option to leave a comment.
+* The dashboard presented with any blog posts that the user have already created and the option to add a new blog post.
+* The user can able to delete or update their post and taken back to an updated dashboard.
+  
 ## Website
-https://mvc-express-blog.herokuapp.com/
+
 ## Built with
 * Html
 * Css
