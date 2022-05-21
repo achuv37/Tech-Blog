@@ -10,7 +10,7 @@ module.exports = {
     format_date: (date) => {
       return `${new Date(date).toLocaleDateString('en-US', {timeZone:'America/New_York'})
 
-        } ${new Date(date).getTimezoneOffset()}`;
+        }`;
 
 }
 
