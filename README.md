@@ -12,6 +12,8 @@
 * Express.js
 * Sequelize
 * Handlebars
+* Express session
+* Bcrypt
 
 ## Images
 ![tech-blog1](https://user-images.githubusercontent.com/93412486/169532343-3dbff542-f719-423c-91e4-7461e2907aca.PNG)
@@ -19,6 +21,7 @@
 ![tech-blog 3](https://user-images.githubusercontent.com/93412486/169532476-2d817981-1763-4a7c-9b25-593214db164e.PNG)
 ![tech-blog4](https://user-images.githubusercontent.com/93412486/169532488-fd57f28c-3213-4aac-9d46-0e4179416279.PNG)
 ## Video
+
 
 ## Contributes by 
 Aswathy 
