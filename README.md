@@ -20,6 +20,9 @@ https://mvc-express-blog.herokuapp.com/
 * Express session
 * Bcrypt
 
+## Install 
+To install this project into your own, use ` git clone <reponame> ` in your command-line, then  ` npm init ` to install the listed dependencies.
+
 ## Images
 ![tech-blog1](https://user-images.githubusercontent.com/93412486/169532343-3dbff542-f719-423c-91e4-7461e2907aca.PNG)
 ![Tech-blog2](https://user-images.githubusercontent.com/93412486/169532418-b1298f14-ed1b-40ae-a5ac-cd4fd6d0a723.PNG)
